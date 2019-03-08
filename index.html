@@ -1,12 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-    <title>project</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script src="/dist/build.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+		<title>node节点</title>
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_793623_mrlz85dzbp7.css">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/index.css">
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+  <div class="fixedNav">
+    <ul>
+      <li>
+        <a href="#banner">首页</a>
+      </li>
+      <li>
+        <a href="#aboutUs">关于我们</a>
+      </li>
+      <li>
+        <a href="#nodeDetail">节点详情</a>
+      </li>
+      <li>
+        <a href="#development">路线图</a>
+      </li>
+      <li>
+        <a href="#partner">合作伙伴</a>
+      </li>
+    </ul>
+  </div>
+  <header class="header flex">
+    <div class="left fl">
+      <i></i>
+    </div>
+    <div class="center">
+      <img src="./img/logo.png" alt="">
+    </div>
+    <div class="right fr">
+      <i></i>
+    </div>
+  </header>
+  <section class="banner" id="banner">
+    <p class="bannerContent">Newdex , EOS超级节点候选人</p>
+    <span class="bannerBtn">投票支持Newdex节点 ></span>
+  </section>
+  <section class="aboutUs" id="aboutUs">
+    <img src="./img/aboutUs.png" alt="">
+    <h3>Newdex非常荣幸成为EOS超级节点候选人</h3>
+    <div class="line"></div>
+    <p>
+      Newdex成立于2018年8月8日，是全球首家EOS去中心化交易所，为数字货币交易人员和供应商提供最优质的服务。自成立以来，Newdex一直致力于EOS的开发，以满足用户的交易需求。相信通过Newdex与大家的共同努力，可以为EOS生态贡献巨大的价值。
+    </p>
+    <p>Newdex团队由众多行业资深成员组成。Newdex的根本目标是通过密集的代码开发、研究和合作，加强去中心化数字资产的开源性质、安全性质和易用性质。</p>
+    <p>我们作为超级节点候选人的愿景是为了将Newdex团队在这一过程中获得的行业经验与大家共享，我们期待世界各地的开发人员、项目方和节点同我们进行合作，共同繁荣EOS生态。</p>
+  </section>
+  <section class="nodeDetail" id="nodeDetail">
+    <img src="./img/node1.png" alt="">
+    <h3>Newdex备选节点配置</h3>
+    <div class="detailList">
+      <span>节点名称：</span>
+      <span>newdexXXXXXX</span>
+    </div>
+    <div class="detailList">
+      <span>节点位置：</span>
+      <span>中国</span>
+    </div>
+    <div class="detailList">
+      <span>公司地址：</span>
+      <span>开曼群岛</span>
+    </div>
+    <div class="detailList">
+      <span>网站：</span>
+      <span>http://newdex.io</span>
+    </div>
+    <div class="detailList">
+      <span style="vertical-align: top;">节点配置：</span>
+      <span>亚马逊AWSEC 2主机x1.32x large型，128核处理器，2TB内存，2x1920GB SSD，25Gb带宽</span>
+    </div>
+    <div class="detailList">
+      <span>节点收益：</span>
+      <span></span>
+    </div>
+    <div class="detailList">
+      <span style="vertical-align: top;">服务器成本：</span>
+      <span>用于服务器硬件维护，以满足EOS主网要求</span>
+    </div>
+    <div class="detailList">
+      <span>EOS工具开发：</span>
+      <span>为EOS提供高效便捷的工具</span>
+    </div>
+    <div class="detailList">
+      <span style="vertical-align: top;">团队运营：</span>
+      <span>用于Newdex团队支出，保证团队的正常运营</span>
+    </div>
+  </section>
+  <section id="development" class="development">
+    <div class="developmentContent">
+      <h3>Newdex发展路线图</h3>
+      <div class="circle">
+        <p>2018.8.8</p>
+        <p>NEWDEX上线运营</p>
+      </div>
+      <div class="circle">
+        <p>2018.8.30</p>
+        <p>支持手机钱包授权登录</p>
+      </div>
+      <div class="circle">
+        <p>2018.9.8</p>
+        <p>DAPP上线运营</p>
+      </div>
+      <div class="circle">
+        <p>2018.11.01</p>
+        <p>APP上线运营</p>
+      </div>
+      <div class="circle">
+        <p>2018.12</p>
+        <p>开放API交易</p>
+      </div>
+      <div class="circle">
+        <p>2018.12</p>
+        <p>上线EUSD稳定币交易区</p>
+      </div>
+      <div class="circle">
+        <p>2019.01.22</p>
+        <p>会员系统上线</p>
+      </div>
+      <div class="circle">
+        <p>2019.03</p>
+        <p>完成智能合约的开发测试、代码安全审计</p>
+      </div>
+      <div class="circle">
+        <p>2019.03</p>
+        <p>完成项目方管理和营销系统1.0开发</p>
+      </div>
+      <div class="circle">
+        <p>2019.03</p>
+        <p>完成项目方管理和营销系统2.0开发</p>
+      </div>
+      <div class="circle">
+        <p>2019.03</p>
+        <p>平台渗透测试和代码安全审计</p>
+      </div>
+    </div>
+  </section>
+  <section id="partner" class="partner">
+    <h3>合作伙伴</h3>
+    <div class="partnerImg">
+      <img src="./img/partner1.png" alt="">
+      <img src="./img/partner2.png" alt="">
+      <img src="./img/partner3.png" alt="">
+      <img src="./img/partner4.png" alt="">
+      <img src="./img/partner5.png" alt="">
+      <img src="./img/partner6.png" alt="">
+    </div>
+  </section>
+  <footer id="footer" class="footer">
+    Copyright © 2018 Newdex Inc. All rights reserved.
+  </footer>
+  <script>
+    function resize() {
+      const width = screen.width > 750 ? '50px' : screen.width / 750 * 100 + 'px';
+      console.log(screen.width)
+      document.getElementsByTagName('html')[0].style.fontSize = width;
+    }
+    window.onresize = resize;
+    resize();
+
+    var showLayer = true;
+    $('.left i').on('click', function() {
+      $('.fixedNav').fadeIn();
+    });
+
+    $('.fixedNav li').on('click', function() {
+      $('.fixedNav').fadeOut();
+    });
+  </script>
+</body>
 </html>

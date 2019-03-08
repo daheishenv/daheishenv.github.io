@@ -1,0 +1,267 @@
+body {
+  background: #f2f3f8;
+}
+
+.fixedNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .7);
+  z-index: 100;
+  display: none;
+}
+
+.fixedNav ul li {
+  line-height: 1rem;
+  font-size: .3rem;
+  cursor: pointer;
+  padding: 0 .5rem;
+}
+
+.fixedNav ul li a{
+  display: block;
+}
+
+.header {
+  padding: .2rem;
+  background: linear-gradient(to right, #3248CA, #0C186D);
+  height: .8rem;
+  line-height: .8rem;
+}
+
+.header .left i {
+  display: block;
+  width: .4rem;
+  height: .35rem;
+  background: url('../img/caidan.png') no-repeat;
+  background-size: 100% 100%;
+  margin-top: .03rem;
+}
+
+.header .center {
+  margin: 0 auto;
+}
+
+.header .center img {
+  display: block;
+  height: .4rem;
+}
+
+.header .right i {
+  display: block;
+  width: .4rem;
+  height: .4rem;
+  background: url('../img/diqiu.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.banner {
+  background: #fff;
+  color: #fff;
+  padding-top: 1.16rem;
+  background: linear-gradient(to right, #3248CA, #0C186D);
+  text-align: center;
+  height: 6rem;
+}
+
+.banner .bannerContent {
+  font-size: .4rem;
+}
+
+.banner .bannerBtn {
+  display: inline-block;
+  padding: 0 .4rem;
+  height: .6rem;
+  font-size: .23rem;
+  line-height: .6rem;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.aboutUs {
+  background: #fff;
+  padding: 1.1rem .5rem;
+  margin-bottom: .2rem;
+}
+
+.aboutUs img {
+  display: block;
+  width: 60%;
+  margin: 0 auto .5rem;
+}
+
+.aboutUs h3 {
+  font-size: .34rem;
+  color: #278EDA;
+}
+
+.aboutUs p {
+  font-size: .26rem;
+  margin-bottom: .2rem;
+  color: #666;
+}
+
+.aboutUs .line {
+  width: 1rem;
+  height: .03rem;
+  margin: .45rem auto .45rem;
+  border-radius: .5rem;
+  background: linear-gradient(to right, #004AFF, #8DB4FF);
+}
+
+.nodeDetail {
+  padding: 1.1rem .5rem;
+  background: #fff;
+}
+
+.nodeDetail img {
+  display: block;
+  width: 40%;
+  margin: 0 auto .5rem;
+}
+
+.nodeDetail h3 {
+  text-align: center;
+  font-size: .34rem;
+  color: #278EDA;
+  margin-bottom: .5rem;
+}
+
+.nodeDetail .detailList {
+  font-size: 0;
+  line-height: .5rem;
+}
+
+.nodeDetail .detailList span {
+  display: inline-block;
+  font-size: .26rem;
+  color: #666;
+}
+
+.nodeDetail .detailList span:nth-child(1) {
+  width: 30%;
+}
+
+.nodeDetail .detailList span:nth-child(2) {
+  width: 70%;
+}
+
+.development {
+  padding: 1.1rem .5rem 1.8rem;
+  background: linear-gradient(to right, #3248CA, #0C186D);
+}
+
+.development .developmentContent {
+  position: relative;
+  height: 12rem;
+  background: center .8rem url('../img/line.png') no-repeat;
+  background-size: 10% 100%; 
+}
+
+.developmentContent h3 {
+  color: #fff;
+  text-align: center;
+  font-size: .34rem;
+  margin-bottom: .5rem;
+}
+
+.developmentContent .circle {
+  position: absolute;
+  color: #fff;
+  font-size: .28rem;
+  text-align: right;
+  width: 40%;
+}
+
+.developmentContent .circle:nth-child(2n+1) {
+  text-align: left;
+}
+
+.developmentContent .circle:nth-child(2n) {
+  text-align: right;
+}
+
+.developmentContent .circle:nth-child(2) {
+  top: 1.3rem;
+  left: 1%;
+}
+
+.developmentContent .circle:nth-child(3) {
+  top: 2.3rem;
+  right: 1%;
+}
+
+.developmentContent .circle:nth-child(4) {
+  top: 3.3rem;
+  left: 1%;
+}
+
+.developmentContent .circle:nth-child(5) {
+  top: 4.3rem;
+  right: 1%;
+}
+
+.developmentContent .circle:nth-child(6) {
+  top: 5.3rem;
+  left: 1%;
+}
+
+.developmentContent .circle:nth-child(7) {
+  top: 6.3rem;
+  right: 1%;
+}
+
+.developmentContent .circle:nth-child(8) {
+  top: 7.3rem;
+  left: 1%;
+}
+
+.developmentContent .circle:nth-child(9) {
+  top: 8.3rem;
+  right: 1%;
+}
+
+.developmentContent .circle:nth-child(10) {
+  top: 9.3rem;
+  left: 1%;
+}
+
+.developmentContent .circle:nth-child(11) {
+  top: 10.3rem;
+  right: 1%;
+}
+
+.developmentContent .circle:nth-child(12) {
+  top: 11.3rem;
+  left: 1%;
+}
+
+.partner {
+  padding: 1rem .5rem;
+}
+
+.partner h3 {
+  color: #666;
+  text-align: center;
+  font-size: .4rem;
+  margin-bottom: .5rem;
+}
+
+.partnerImg {
+  font-size: 0;
+}
+
+.partnerImg img {
+  margin-bottom: .2rem;
+}
+
+.footer {
+  background: #1A1D29;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  text-align: center;
+  font-size: .25rem;
+  color: #fff;
+}
